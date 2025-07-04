@@ -25,6 +25,9 @@ func main() {
 		fmt.Printf("The result of division is %v and remainder after division is %v ", result, remainder)
 	}
 
+	var intArr [3]int32 = [3]int32{1, 2, 3}
+	fmt.Println(intArr[0])
+
 }
 
 func printMe(printValue string) {
